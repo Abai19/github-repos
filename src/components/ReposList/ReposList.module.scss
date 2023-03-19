@@ -1,0 +1,12 @@
+.con {
+    font-size: 18px;
+}
+.fl div:first-child{
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}

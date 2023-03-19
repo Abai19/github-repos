@@ -1,0 +1,43 @@
+.block {
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 2rem 3rem;
+    &  p {
+        color: #A0B0B9;
+    }
+    & a {
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+.nameBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    & div:first-child {
+        font-size: 32px;
+        color:#2196F3
+    }
+    
+}
+.secondContentBlock {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+   
+}
+.green {
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.red {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
